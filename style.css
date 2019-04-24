@@ -1,0 +1,37 @@
+.container {
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+body {
+    margin: auto;
+    text-align: center;
+    font-family: 'Allerta Stencil';
+    font-size: 60px;
+    background-color: rgba(215, 224, 250, 0.281);
+}
+button {
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 12px;
+    background-color: rgb(220, 221, 255);
+    font-family: inherit;
+}
+button:hover {
+    background-color:  rgba(47, 79, 79, 0.256);
+    border-style: double;
+
+}
+.cell {
+    background-color: rgba(47, 79, 79, 0.356);
+    display: block;
+    float: left;
+   
+}
+.darkCell {
+    background-color: rgb(47, 79, 79);
+    display: block;
+    float: left;
+}
